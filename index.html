@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rev Panda Assessment</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="wrap">
+    <form class="wrap__form" action="save.php" method="post">
+        <div class="wrap__form__item">
+            <label for="table_a_input">
+                Input Value 1
+            </label>
+            <input type="text" id="table_a_input" name="table_a_input" required>
+        </div>
+
+        <div class="wrap__form__item">
+            <label for="table_b_input">
+                Input Value 2
+            </label>
+            <input type="number" id="table_b_input" name="table_b_input" required>
+        </div>
+
+        <div class="wrap__form__item">
+            <label for="table_c_input">
+                Input Value 3
+            </label>
+            <input type="text" id="table_c_input" name="table_c_input" required>
+        </div>
+
+        <div class="wrap__form__item">
+            <button class="wrap__form__btn" type="submit" name="save">
+                Save
+            </button>
+        </div>
+    </form>
+
+    <div class="wrap__buttons">
+        <div class="wrap__buttons__item">
+            <a href="result.php?button_id=1">Button 1</a>
+        </div>
+
+        <div class="wrap__buttons__item">
+            <a href="result.php?button_id=2">Button 2</a>
+        </div>
+
+        <div class="wrap__buttons__item">
+            <a href="result.php?button_id=3">Button 3</a>
+        </div>
+
+        <div class="wrap__buttons__item">
+            <a href="result.php?button_id=4">Button 4</a>
+        </div>
+
+        <div class="wrap__buttons__item">
+            <a href="result.php?button_id=5">Button 5</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
